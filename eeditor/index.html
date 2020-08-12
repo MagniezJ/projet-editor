@@ -1,41 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>editeur live coding
-    </title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css" href="/dist/loading-bar.min.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>editeur live coding
+  </title>
+  <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
-    <p>Editeur</p> <p id="compteur" ></p>
-    <button id="bold" onclick="bold()">
-        <span>Bold</span>
-        
-    </button>
-      <button id="italic" href="#">
-        <span>Italic</span>
-       
-      </button>
-      <button id="style" href="#">
-        <span>Add style  </span>
-       
-      </button>
-    <textarea id="story" name="story"
-          rows="15" cols="183">
+  <p>Editeur</p>
+  <p id="scss">Css</p>
+  <p id="compteur"></p>
+  <a href="#" id="bold" class="myButton">Gras</a>
+  <a href="#" id="italic" class="myButton">Italic</a>
+  <a href="#" id="style" class="myButton">Ajouter style</a>
+  <textarea  id="story" name="story" rows="15" cols="83">
 </textarea>
 
-<div class="loader" id="loader-2">
+<textarea  id="css" name="story" rows="15" cols="83">
+</textarea>
+
+  <div class="loader" id="loader-2">
     <span></span>
     <span></span>
     <span></span>
   </div>
-<p id="li">Live-Coding</p>
-<p id="p"></p>
-
+  <p id="li">Live-Coding</p>
+  <p contenteditable="true" id="p"></p>
+  <a href="#" id="sendstyle" class="myButton">Ajouter</a>
 </body>
 <script src="app.js"></script>
-<script type="text/javascript" src="/dist/loading-bar.min.js"></script>
+
 </html>
